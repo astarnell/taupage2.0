@@ -1,0 +1,4 @@
+output-virtualbox-iso
+taupage.box
+packer_cache
+tmp

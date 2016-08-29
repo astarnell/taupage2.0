@@ -1,0 +1,10 @@
+[Unit]
+Description=Berry
+
+[Service]
+Requires=kubelet
+Type=oneshot
+ExecStart=/opt/taupage/scripts/start_berry.sh
+
+[Install]
+WantedBy=multi-user.target
